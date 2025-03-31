@@ -8,6 +8,6 @@ front-end development technologies.
 
 #TECHNOLOGY USED:
 
-HTML (49.6%)
-CSS (41%)
-JavaScript (9.4%
+1:HTML (49.6%)
+2:CSS (41%)
+3:JavaScript (9.4%
