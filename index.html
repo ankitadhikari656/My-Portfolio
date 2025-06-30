@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="script.js">
+</head>
+<body>
+
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#education">Education</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li><button id="toggleDarkMode">Toggle Dark Mode</button></li>
+            </ul>
+        </nav>
+        <div class="hero">
+            <h1>Ankit Portfolio</h1>
+            <p>A showcase of my work and skills</p>
+        </div>
+    </header>
+
+    
+    <section id="projects">
+        <h2>Projects</h2>
+        <button class="filter-btn" data-category="all">All</button>
+        <button class="filter-btn" data-category="web">Web Development</button>
+        <button class="filter-btn" data-category="app">App Development</button>
+        <div class="projects-grid">
+            <div class="project-item" data-category="web">
+                <h3>Project 1: Restaurant Website</h3>
+                <p>1.Designed & Developed a Restaurant Website to enhance online presence
+   2.Integrated Online Menu & Ordering System for a smooth customer experience.Built with HTML , CSS and Javascript.
+</p>
+                <a href="#">Link</a>
+            </div>
+            <div class="project-item" data-category="app">
+                <h3>Project 2: Amazone clone</h3>
+                <p>1.Developed a fully functional e-commerce platform inspired by Amazon.
+  <br>2.Implemented user authentication  for secure login, signup, and profile management.
+<br>3.Built with HTML , CSS .
+</p>
+                <a href="#">View Project</a>
+            </div>
+            
+        </div>
+    </section>
+
+    <section id="experience">
+        <h2>Work Experience</h2>
+        <ul>
+            <li>
+                <h3>Job Title 1</h3>
+                <p>Company Name, Year</p>
+                <p>Brief description of job responsibilities.</p>
+            </li>
+            <li>
+                <h3>Job Title 2</h3>
+                <p>Company Name, Year</p>
+                <p>Brief description of job responsibilities.</p>
+            </li>
+        </ul>
+    </section>
+
+    <!-- Education Section -->
+    <section id="education">
+        <h2>Education</h2>
+        <ul>
+            <li>
+                <h3>Graduation</h3>
+                <p>Amrapali University,2025</p>
+            </li>
+            <li>
+                <h3>12th</h3>
+                <p>N.I.C Ranikhet,2022</p>
+            </li>
+            <li>
+                <h3>10th</h3>
+                <p>V.V.M Ranikhet</p>
+            </li>
+        </ul>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <form id="contactForm">
+            <label for="name">Name:</label>
+            <!--<input type="text" id="name" name="name" required>-->
+          <input type="text" id="name" name="name">
+            
+            <label for="email">Email:</label>
+            <input type="text" id="email" name="email">
+            
+            <label for="message">Message:</label>
+            <textarea id="message" name="message"></textarea>
+            
+            <button type="submit">Send Message</button>
+        </form>
+        <p id="formFeedback" class="hidden">Your message has been sent!</p>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2025 Portfolio</p>
+        <div class="social-media">
+            <a href="">https://www.linkedin.com/in/ankitadhikari20/</a>
+            <a href="#">https://github.com/ankitadhikari656</a>
+            <a href="#">@ankitadhikaritulsi1237@gmail.com</a>
+        
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+    
+</body>
+</html>
